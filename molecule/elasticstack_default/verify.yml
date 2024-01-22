@@ -5,6 +5,7 @@
   vars:
     elasticstack_elasticsearch_http_port: 9200
     elasticstack_initial_passwords: /usr/share/elasticsearch/initial_passwords
+    elasticsearch_group_name: elasticsearch
   tasks:
 
     - name: Run Logstash syntax check
